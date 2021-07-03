@@ -5,6 +5,12 @@ class HomePageTest(TestCase):
 
 	def test_can_save_a_POST_request(self):
 		response = self.client.post('/', data={'item_text':'A new list item'})
+
+		#检查是否把一个新Item对象存入数据空
+		self.assertEqual(Item.objects.count(), 1) #objects.count()是objects.all().count()的简写形式
+		new_item = Item.objects.first()	#objects.first()等价于objects.all()[0]
+		self.assertEqual(new_item.text, 'A new list item')
+
 		self.assertIn('A new list item', response.content.decode())
 		self.assertTemplateUsed(response, 'home.html')
 
