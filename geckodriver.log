@@ -1258,3 +1258,36 @@ JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: 
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
 
 JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\chiyo\AppData\Local\Temp\rust_mozprofilerIwLDj\protections.sqlite
+1627798349212	geckodriver	INFO	Listening on 127.0.0.1:56092
+1627798352277	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\chiyo\\AppData\\Local\\Temp\\rust_mozprofilesE1Kn6"
+1627798352750	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chiyo\\AppData\\Local\\Temp\\rust_mozprofilesE1Kn6\\search.json.mozlz4", (void 0)))
+1627798356174	Marionette	INFO	Listening on port 56100
+1627798356513	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1627798357467	Marionette	INFO	Stopped listening on port 56100
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627798358433	geckodriver	INFO	Listening on 127.0.0.1:56122
+1627798361502	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\chiyo\\AppData\\Local\\Temp\\rust_mozprofile4aoRBW"
+1627798361925	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chiyo\\AppData\\Local\\Temp\\rust_mozprofile4aoRBW\\search.json.mozlz4", (void 0)))
+1627798365347	Marionette	INFO	Listening on port 56132
+1627798365675	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1627798366488	Marionette	INFO	Stopped listening on port 56132
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1627798367553	geckodriver	INFO	Listening on 127.0.0.1:56151
+1627798370598	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\chiyo\\AppData\\Local\\Temp\\rust_mozprofileYXFx28"
+1627798371011	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chiyo\\AppData\\Local\\Temp\\rust_mozprofileYXFx28\\search.json.mozlz4", (void 0)))
+1627798374392	Marionette	INFO	Listening on port 56159
+1627798374776	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1627798375595	Marionette	INFO	Stopped listening on port 56159
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
